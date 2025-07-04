@@ -1,3 +1,5 @@
+"use client";
+import { handleDownload } from '@/app/utils/functions';
 import { Button } from '@/components/ui/button';
 import { DownloadIcon } from 'lucide-react';
 import Link from 'next/link';
@@ -19,7 +21,7 @@ const CTA = () => {
                 </Button>
                 <div className='flex gap-2 my-4 flex-col md:flex-row'>
 
-                    <Button className='cursor-pointer' variant={"outline"}>
+                    <Button onClick={handleDownload} className='cursor-pointer' variant={"outline"}>
                         Get My Resume
                         <DownloadIcon />
                     </Button>

@@ -1,9 +1,11 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button';
 import { DownloadIcon } from 'lucide-react';
 import Link from 'next/link';
 import { FaLinkedin } from 'react-icons/fa';
+import { handleDownload } from '@/app/utils/functions';
 
 const HeroSection = () => {
     return (
@@ -14,7 +16,7 @@ const HeroSection = () => {
                     <h3 className='text-2xl font-bold md:text-center lg:text-left'>Full Stack Developer</h3>
                     <p className='md:text-lg lg:w-[75%] md:text-center lg:text-left text-zinc-300'>Driven Full Stack Developer proficient in front-end, back-end, and database technologies. Proven experience includes multiple internships, notably with IBM.</p>
                     <div className='flex gap-2 my-4 md:mx-auto lg:mx-0'>
-                        <Button className='cursor-pointer'>
+                        <Button onClick={handleDownload} className='cursor-pointer'>
                             My Resume
                             <DownloadIcon />
                         </Button>
