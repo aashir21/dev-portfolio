@@ -25,6 +25,18 @@ const projects: Project[] = [
         playStoreLink: "https://play.google.com/store/apps/details?id=com.collge.collgeio&pli=1",
     },
     {
+        projectName: "Prism AI",
+        projectDetails: ["Chatting interface using Gemini AI", "Breakdown of leetcode problem", "Solutions to problem in multiple programming languages", "Smooth animations using TypeScript & Tailwind CSS"],
+        screenshotUrl: "/prism-ai.jpg",
+        liveLink: "https://solvewithprism.vercel.app/",
+        githubLink: "https://github.com/aashir21/prism.ai",
+        status: "Completed",
+        skillsUsed: [NEXTJS, GIT, TYPESCRIPT, GEMINI_AI, TAILWIND],
+        isSourceCodeAvailable: true,
+        description: "A simple LeetCode tutor tool powered by AI",
+        isMobileOnly: false,
+    },
+    {
         projectName: "AI SaaS Starter Kit",
         projectDetails: [
             "Backend powered by Firebase",
@@ -39,18 +51,6 @@ const projects: Project[] = [
         skillsUsed: [NEXTJS, FIREBASE, TYPESCRIPT, GIT, CLERK, TAILWIND, GEMINI_AI, PADDLE],
         isSourceCodeAvailable: true,
         description: "Ultimate starter kit, dont waste time building basic functionality and ship fast!",
-        isMobileOnly: false,
-    },
-    {
-        projectName: "Marvel Fandom",
-        projectDetails: ["Made using React.js and SCSS", "Search functionality to look up character details", "Fetching data from Marvel REST API", "Pagination to dynamically fetch new data"],
-        screenshotUrl: "/marvel.jpg",
-        liveLink: "https://marvelinfohub.netlify.app/",
-        githubLink: "https://github.com/aashir21/Marvel-Project",
-        status: "Completed",
-        skillsUsed: [REACT, GIT, JAVASCRIPT, VITE],
-        isSourceCodeAvailable: true,
-        description: "A marvel fan website! Get information about characters & comics!",
         isMobileOnly: false,
     }
 ]

@@ -21,7 +21,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
                 alt='project image'
                 height={500}
                 width={500}
-                className='bg-neutral-400 w-full h-[250px] rounded-tl-xl rounded-tr-xl object-cover'
+                className='bg-transparent w-full h-[250px] rounded-tl-xl rounded-tr-xl object-cover'
             />
             <div className='p-4 w-full'>
                 <div className='flex flex-col'>
