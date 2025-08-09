@@ -2,7 +2,7 @@ import React from 'react'
 import SubSectionTitle from '../typography/SubSectionTitle'
 import { Project } from '@/app/utils/interfaces'
 import ProjectCard from '../cards/ProjectCard'
-import { CLERK, DOCKER, FIGMA, FIREBASE, GEMINI_AI, GIT, JAVA, JAVASCRIPT, JENKINS, KUBERNETES, MONGODB, MYSQL, NEXTJS, PADDLE, POSTMAN, REACT, REACT_NATIVE, REDUX, SPRING_BOOT, TAILWIND, TYPESCRIPT, VITE } from '@/app/utils/skills'
+import { CLERK, DOCKER, FIGMA, FIREBASE, GEMINI_AI, GIT, JAVA, JAVASCRIPT, JENKINS, KUBERNETES, MONGODB, MYSQL, NEXTJS, PADDLE, POSTMAN, REACT_NATIVE, REDUX, SPRING_BOOT, TAILWIND, TYPESCRIPT } from '@/app/utils/skills'
 
 const projects: Project[] = [
     {
@@ -17,7 +17,7 @@ const projects: Project[] = [
         liveLink: "",
         githubLink: "",
         status: "Completed",
-        skillsUsed: [SPRING_BOOT, REACT_NATIVE, NEXTJS, JAVA, TYPESCRIPT, MONGODB, MYSQL, DOCKER, KUBERNETES, JENKINS, FIGMA, GIT, REDUX, POSTMAN],
+        skillsUsed: [SPRING_BOOT, REACT_NATIVE, NEXTJS, JAVA, JAVASCRIPT, MONGODB, MYSQL, DOCKER, KUBERNETES, JENKINS, FIGMA, GIT, REDUX, POSTMAN],
         isSourceCodeAvailable: false,
         description: "Collge is a social networking app for university students!",
         isMobileOnly: true,
