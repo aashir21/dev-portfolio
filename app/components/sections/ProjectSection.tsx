@@ -28,7 +28,7 @@ const projects: Project[] = [
         projectName: "Prism AI",
         projectDetails: ["Chatting interface using Gemini AI", "Breakdown of leetcode problem", "Solutions to problem in multiple programming languages", "Smooth animations using TypeScript & Tailwind CSS"],
         screenshotUrl: "/prism-ai.jpg",
-        liveLink: "https://solvewithprism.vercel.app/",
+        liveLink: "https://solvewithprism.vercel.app",
         githubLink: "https://github.com/aashir21/prism.ai",
         status: "Completed",
         skillsUsed: [NEXTJS, GIT, TYPESCRIPT, GEMINI_AI, TAILWIND],
